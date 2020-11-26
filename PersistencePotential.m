@@ -1,4 +1,4 @@
-% This code generates the plasmid-abundance as a function of persistence
+% This code generates the plasmid abundance as a function of persistence
 % potential, which corresponds to Fig. 3C in the manuscript of "the persistence potential of plamids".
 clear;
 clc;
@@ -55,7 +55,7 @@ for rep=1:20 % Here, we define how many communities to simulate
         end
     end
     
-    % In the followinf praragraph, we define the initial state of the
+    % In the following praragraph, we define the initial state of the
     % community.
     clear initial t y;
     initial(species*(1+plasmid))=0;
